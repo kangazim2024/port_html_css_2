@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.bismillah{
+    background-color: black;
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+}
+body{
+    background-color: wheat;
+    }
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #101010 ;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid aqua;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.span{
+    color:aqua;
+}
+nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: aqua;
+    transition: 0,5s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 30px; 
+    transition: transform .5s;
+    letter-spacing: 4px;
+    font-size: 20px;
+    
+}
+.btn:hover{
+    transform: scale(1.2); 
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.image{
+    
+    width: 70%;
+    height: 70%;
+   position:absolute;
+    bottom: 0;
+    right: 30px;
+    
+}
+.image img{
+    height: auto;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    border-radius: 8px;
+    transform: translate(20% );
+}
+.conten{
+    color: whitesmoke;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4{
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.judul-nama{
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 20px 0 20px;
+    letter-spacing: 5px;
+}
+h3{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+.conten a{
+    font-size: 20px;
+    background-color: grey;
+    color: aqua;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.conten a:hover{
+    background: transparent;
+    border: 2px solid white;
+    letter-spacing: 3px;
+}
+
+
+.about-me{
+    width: 50%;
+    height: 90%;   
+    bottom: 0;
+    right: 30px;
+} 
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img{
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 550px;
+}
+    .about-text h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid aqua;
+}
+.about-text h5{
+    color:whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.span2{
+    color: aqua;
+}
+.span3{
+    color: aqua;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 25px;
+    transition: .5s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.service{
+    background: #101010;
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.title{
+    margin-bottom: 150px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.spn-h2{
+color: aqua;
+}
+.paragraf{
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+box-sizing: content-box;
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+}
+.card{
+  height: 580px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #141414;
+  border-radius: 20px;
+  margin: 1,5px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 2px solid aqua;
+   
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+    color: aqua;
+}
+.card h5{
+    color: aqua;
+    font-size: 23px;
+    margin-bottom: 15px;
+    border: white;
+    border-color: aliceblue;
+}
+.pra p{
+   color: white;
+   font-size: 15px;
+   line-height: 27px;
+   margin-bottom: 25px;
+   margin-top: 30px;
+   text-align: center;
+   word-spacing: 2px;
+   letter-spacing: 1px;
+}
+.pra p  a{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px; 
+}
+.btn-read{
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.containe{
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    gap: 70px ;
+    font-size: 80px;
+    letter-spacing: 1px;
+    word-spacing: -2px;
+    height: 500px;
+}
+.btn-read a:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer; 
+}
+ 
+
